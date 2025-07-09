@@ -1,3 +1,10 @@
 .btn{
-    background-color: brown;
+    background: #2E3192;
+    color: white;
+    height: 25px;
+    width: 85px;
+    border: none;
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 5px;
 }
