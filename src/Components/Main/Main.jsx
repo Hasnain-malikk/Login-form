@@ -16,6 +16,8 @@ const Main = () => {
             <p id='pass' className='p2'>Password</p>
             <input type="password" placeholder='At least 8 character'/>
         </div>
+        <div className="fpass">Forget Password?</div>
+        <button className='btn1'>SIGN UP</button>
       </div>
       <div className="right"></div>
     </div>

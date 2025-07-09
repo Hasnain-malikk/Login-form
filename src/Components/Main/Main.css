@@ -52,3 +52,15 @@
 #pass{
     margin-top: 8px;
 }
+.fpass{
+    font-size: 13px;
+    /* position: relative; */
+    padding-left: 225px;
+    color: #1E4AE9;
+    cursor: pointer;
+}
+.btn1{
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
