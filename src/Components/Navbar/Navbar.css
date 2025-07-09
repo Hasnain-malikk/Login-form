@@ -17,3 +17,11 @@
     margin-top: 7px;
     gap: 28px;
 }
+@media (max-width: 768px) {
+  .navbar{
+    flex-wrap: wrap;
+    padding-bottom: 12px;
+    gap: 15px;
+    height: auto;
+  }
+}
