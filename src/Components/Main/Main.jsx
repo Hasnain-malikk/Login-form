@@ -17,7 +17,9 @@ const Main = () => {
             <input type="password" placeholder='At least 8 character'/>
         </div>
         <div className="fpass">Forget Password?</div>
-        <button className='btn1'>SIGN UP</button>
+        <button className='btn1'>Sign in</button>
+        <span className="or">Or</span>
+        <hr />
       </div>
       <div className="right"></div>
     </div>
