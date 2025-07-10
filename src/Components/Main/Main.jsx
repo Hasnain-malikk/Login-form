@@ -2,6 +2,8 @@ import React from 'react'
 import './Main.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHand } from '@fortawesome/free-regular-svg-icons'
+import fb from '/ReactJs/Login-form/src/assets/Facebook.png'
+import google from '/ReactJs/Login-form/src/assets/Google.png'
 
 const Main = () => {
   return (
@@ -18,8 +20,17 @@ const Main = () => {
         </div>
         <div className="fpass">Forget Password?</div>
         <button className='btn1'>Sign in</button>
-        <span className="or">Or</span>
+        <div className="or">Or</div>
         <hr />
+        <br />
+        <button className='btn1' id='google'><img src={fb} alt="" />Sign in with Google</button>
+        <button className='btn1' id='google' ><img src={google} alt="" />Sign in with Facebook</button>
+        <br />
+        <div className="any-acc">Don't you have an account? <a href="/">Sign up</a></div>
+        <br />
+        <br />
+        <br />
+        <div className='rights' >© 2025 ALL RIGHTS RESERVED</div>
       </div>
       <div className="right"></div>
     </div>
