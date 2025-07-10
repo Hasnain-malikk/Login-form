@@ -115,3 +115,34 @@ hr{
     font-size: 12px;
     color: #959CB6;
 }
+@media (max-width: 768px) {
+  .right{
+    visibility: hidden;
+  }
+  .p1{
+    width: 370px;
+    font-size: 12px;
+    line-height: 16px
+  }
+  .fpass{
+    padding-left: 115px;
+  }
+  hr{
+    left: 78%;
+    width: 143%;
+  }
+  .or{
+    left: 72%;
+    width: 15%;
+  }
+  .any-acc{
+    width: 300%;
+  }
+  .rights{
+    width: 355px;
+  }
+  .main{
+    margin: 30px 25px;
+    height: 60vh;
+  }
+}
